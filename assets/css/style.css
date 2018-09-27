@@ -1,0 +1,115 @@
+/**{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.jumbotron hr {
+	display: block;
+	height: 2px;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.jumbotron {
+	background-color: transparent;
+	height: 100vh;
+	padding-top: 25vh;
+	padding-bottom: 25vh;
+}
+
+.jumbotron h1 {
+	color: #E9E9E9;
+	letter-spacing: 3px;
+}
+
+#jumbotron-landing {
+	background-color: #141414;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#landing-button{
+	font-weight: 700; /*bold*/
+/*}
+
+#landing-button:hover {
+	color: #141414;
+	font-weight: 700;
+}*/
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: 'font1';
+	src: url(../font/glitter.otf);
+}
+
+body{
+	background-image: url(../images/lol.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.font1{
+	font-family: 'font1';
+	color: #f9edf8;
+}
+
+.font2{
+	color: #ffccdd;
+}
+
+
+.container{
+	text-align: center;
+}
+
+.jumbotron hr {
+	display: block;
+	height: 2px;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.jumbotron {
+	/*background-color: rgba(0,0,0,0.2);*/
+	background-color: transparent;
+	background-size: cover;
+	height: 100vh;
+	padding-top: 10vh;
+	padding-bottom: 25vh;
+}
+
+.jumbotron h1 {
+/*	color: #E9E9E9;*/
+	letter-spacing: 3px;
+}
+
+#jumbotron-landing {
+/*	background-color: #141414;*/
+	margin: 0 auto;
+	width: 100%;
+}
+
+#landing-button{
+	font-weight: 700; /*bold*/
+}
+
+#landing-button:hover {
+	color: pink;
+	font-weight: 700;
+}
+
+
+
+/*end of landing page*/
+
