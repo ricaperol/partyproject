@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('../images/lol.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.fontstyle{
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 70px;
+	color: #A63756;
+}
+
+.fontstyle1{
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 30px;
+	color: #A63756;
+}
+
+
+.container{
+	text-align: center;
+}
+
+.jumbotron hr {
+	display: block;
+	height: 2px;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.jumbotron {
+	background-color: transparent;
+	background-size: cover;
+	height: 100vh;
+	padding-top: 10vh;
+	padding-bottom: 25vh;
+}
+
+.jumbotron h1 {
+	letter-spacing: 3px;
+}
+
+#jumbotron-landing {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#landing-button{
+	font-weight: 700;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#landing-button:hover a:hover{
+	color: #A63756;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+
+
+/*tablet only*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.fontstyle{
+		font-family: 'Love Ya Like A Sister', cursive;
+		font-size: 60px;
+	}
+
+	.fontstyle1{
+		font-family: 'Love Ya Like A Sister', cursive;
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.fontstyle{
+		font-family: 'Love Ya Like A Sister', cursive;
+		font-size: 30px;
+	}
+
+	.fontstyle1{
+		font-family: 'Love Ya Like A Sister', cursive;
+		font-size: 18px;
+	}
+}

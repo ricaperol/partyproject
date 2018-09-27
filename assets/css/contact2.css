@@ -1,0 +1,82 @@
+/*end of slider*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+footer{
+	width: 100%;
+	background-color: #f18897;
+	padding: 5px 5px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #fff;
+	text-align: center;
+}
+
+footer a {
+	color:black;
+	padding-right: 10px;
+}
+
+footer .follow-us {
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+
+
+body{
+	background-image: url('../images/cake.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.navbar{
+	background-color: #f18897;
+	color: #f9edf8;
+}
+.nav-link{
+	color: #f9edf8;
+	font-size: 25px;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.nav-link:hover{
+	color: #A63756;
+}
+
+.mycolor{
+	color: #A63756;
+}
+
+.contact-form{
+	background: rgba(0,0,0,.4);
+	color: #fff;
+	padding: 20px;
+}
+
+.border{
+	border: 2px solid #380C1A;
+	background-color: #FEF2FE;
+	color: #380C1A;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+	iframe{
+		width: 100%;	
+	}
+}
+/*tablet only*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+
+		iframe {
+			width: 100%;
+		}
+ }

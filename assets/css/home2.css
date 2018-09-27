@@ -1,0 +1,115 @@
+
+.slider{
+	height: 700px;
+	width: 100%;
+}
+
+/*end of slider*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar{
+	background-color: #f18897;
+	color: #f9edf8;
+}
+.nav-link{
+	color: #f9edf8;
+	font-size: 25px;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.nav-link:hover{
+	color: #A63756;
+}
+
+/*end of navbar*/
+
+.text-center{
+	font-family: 'Love Ya Like A Sister', cursive;
+    color: #A63756;
+}
+
+.mycolor{
+	color: #A63756;
+}
+
+#mission h2 {
+	text-align: center;
+}
+
+#mission p {
+	text-align: center;
+}
+
+#vision {
+	background-color: #ffe7e7;
+}
+#vision h2{
+	text-align: center;
+}
+
+#vision p{
+	text-align: center;
+}
+
+#events{
+	background-image: url('../images/home1bg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#gallery{
+	background-color: lightyellow;
+}
+
+.style{
+	font-family: 'Prompt', sans-serif;
+	font-size: 15px;
+	padding: 10px 300px;
+	color: #380C1A;
+}
+
+.title{
+	font-weight: 500px;
+	font-size: 50px;
+}
+
+footer{
+	width: 100%;
+	background-color: #f18897;
+	padding: 5px 5px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #fff;
+	text-align: center;
+}
+
+footer a {
+	color:black;
+	padding-right: 10px;
+}
+
+footer .follow-us {
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 900px) {
+	/*#carouselExampleIndicators {
+		height: 600px !important;
+	}*/
+	.slider{
+		height: 420px;	
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	.slider{
+		height: 300px;	
+	}
+}
+

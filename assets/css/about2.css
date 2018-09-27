@@ -1,13 +1,47 @@
+@font-face{
+	font-family: 'main-font';
+	src: url(../font/glitter.otf);
+}
+
+.font1{
+	font-family: 'main-font';
+}
+
+
+/*end of slider*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+footer{
+	width: 100%;
+	background-color: #f18897;
+	padding: 5px 5px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #fff;
+	text-align: center;
+}
+
+footer a {
+	color:black;
+	padding-right: 10px;
+}
+
+footer .follow-us {
+	margin-top:20px;
+	margin-bottom: 10px;
+}
 
 #landing-about{
-	font-family: 'font1';
-	color: #F33C66;
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #A63756;
 	font-size: 7em;
 	padding-top: 10vh;
 	letter-spacing: 5px;
+	padding: 0;
 }
 
 .jumbotron{
+	background-position: center bottom;
 	background-image: url(../images/sisters.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -16,12 +50,25 @@
 }
 
 .navbar{
-	background-color: #F33C66;
+	background-color: #f18897;
+	color: #f9edf8;
+}
+.nav-link{
+	color: #f9edf8;
+	font-size: 25px;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.nav-link:hover{
+	color: #A63756;
 }
 
-@font-face{
-	font-family: 'font1';
-	src: url(../font/glitter.otf);
+.mycolor{
+	color: #A63756;
+}
+
+.about{
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #A63756;
 }
 
 
@@ -31,17 +78,107 @@
 
 #mission{
 	height: 100%;
-	background-color: #141414;
-	color: #f2f2f2;
+	background-color: #FDFBAA;
+	color: #380C1A;
+	text-align: center;
 }
 
-.about-tags{
-	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
+h2 h3 h4 {
+	font-family: 'Love Ya Like A Sister', cursive;
+    color: #A63756;
+
+}
+.style{
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 50px;
+	color: #380C1A;
+}
+
+.style2, .style3{
+	background-image: url('../images/aboutbg.jpeg');
+	background-attachment: fixed;
+}
+
+.image1{
+	background-image: url('../images/pochi.jpeg');
+	background-size: cover;
+	min-height: 200px;
+}
+
+#icon{
+	max-width: 500px;
+	margin: auto;
+}
+
+.slider{
+	height: 300px;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
 }
 
 #vision{
 	height: 100%;
 	background-color: #f2f2f2;
 	color: #141414;
+}
+
+
+
+
+/*tablet view*/
+
+@media (min-width: 481px) and (max-width: 780px) {
+	.jumbotron{
+		background-image: url(../images/sisters.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+		border-radius: 0;
+	}
+	.order-first{
+		margin-bottom: 5px;
+	}
+	.list{
+		text-align: center;
+	}
+	.slider{
+		height: 170px;
+	}
+}
+
+
+
+@media only screen and (max-width: 400px) {
+	body{
+		background-image: cover;
+	}
+	.order-first{
+		margin-bottom: 5px;
+	}
+	#landing-about{
+		font-family: 'font1';
+		color: #F33C66;
+		font-size: 5em;
+		padding-top: 7vh;
+		letter-spacing: 2px;
+		padding: 0;
+	}
+	#icon{
+		max-width: 250px;
+		margin: 0 auto;
+	}
+	.about{
+		font-size: 20px;
+	}
+	.slider{
+		height: 150px;
+	}
+	.style{
+		font-family: 'Great Vibes', cursive;
+		font-size: 25px;
+		color: #380C1A;
+	}
 }
